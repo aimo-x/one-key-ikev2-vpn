@@ -561,9 +561,9 @@ function success_info(){
     echo -e "# [$(__green "Install Complete")]"
     echo -e "# Version:$VER"
     echo -e "# There is the default login info of your IPSec/IkeV2 VPN Service"
-    echo -e "# UserName:$(__green " myUserName")"
-    echo -e "# PassWord:$(__green " myUserPass")"
-    echo -e "# PSK:$(__green " myPSKkey")"
+    echo -e "# UserName:$(__green " aimo")"
+    echo -e "# PassWord:$(__green " eapaimo")"
+    echo -e "# PSK:$(__green " pskaimo")"
     echo -e "# you should change default username and password in$(__green " /usr/local/etc/ipsec.secrets")"
     echo -e "# you cert:$(__green " ${cur_dir}/my_key/ca.cert.pem ")"
     if [ "$have_cert" = "1" ]; then
