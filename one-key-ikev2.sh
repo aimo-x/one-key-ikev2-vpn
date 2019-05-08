@@ -435,9 +435,9 @@ EOF
 function configure_secrets(){
     cat > /usr/local/etc/ipsec.secrets<<-EOF
 : RSA server.pem
-: PSK "myPSKkey"
-: XAUTH "myXAUTHPass"
-myUserName %any : EAP "myUserPass"
+: PSK "pskaimo"
+: XAUTH "xauthaimo"
+aimo %any : EAP "eapaimo"
 EOF
 }
 
