@@ -31,7 +31,7 @@
 1. 下载脚本:
 修改为一件运行脚本
     ```shell
-    wget --no-check-certificate -o one-key-ikev2.sh https://raw.githubusercontent.com/aimo-x/one-key-ikev2-vpn/master/one-key-ikev2.sh && chmod +x one-key-ikev2.sh && bash one-key-ikev2.sh
+    wget --no-check-certificate -O one-key-ikev2.sh https://raw.githubusercontent.com/aimo-x/one-key-ikev2-vpn/master/one-key-ikev2.sh && chmod +x one-key-ikev2.sh && bash one-key-ikev2.sh
     ```
     * 注:如需使用其他分支的脚本,请将上述url中的master修改为分支名称,各分支区别详见本页的[分支说明](#分支说明)节点
 
