@@ -224,7 +224,7 @@ function download_files(){
     #        exit 1
     #    fi
     #fi
-    tar xzf $strongswan_file
+    #tar xzf $strongswan_file
     if [ $? -eq 0 ];then
         cd $cur_dir/$strongswan_version/
     else
